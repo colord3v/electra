@@ -41,12 +41,11 @@ If you have a crash, PLEASE REPORT IT! otherwise I'll never know
 
 This jailbreak was written by open source contributors. See [the contributors list](https://github.com/coolstar/electra/graphs/contributors) to find out who they are!
 
-* Original patchfinder64 by xerub
-* Additions of current gadgets and fix for allproc by ninjaprawn 
-* jailbreakd by coolstar
-* Extensive contributions by stek29 (sandbox patches, lot's of other stuff)
-
-Please don't rip off any of the code in the jailbreak, but if you do, please credit @theninjaprawn and @coolstarorg.
+* jailbreakd and electra by ninjaprawn and coolstar
+* cosmetic and futureproofing by colord3v
+* kernel hang fixes by colord3v
+* substitute changes for x and 8 by colord3v
+* mobilesubstrate ports to substitute from saurik by colord3v
 
 ## License
 
