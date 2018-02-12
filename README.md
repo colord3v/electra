@@ -4,7 +4,7 @@ forked from coolstar's incredible basekit, Electra. you can find it at https://c
 
 ---
 
-This jailbreak is by the community, and was developed open source.
+This jailbreak is fueled by the community and maintained by colord3v and coolstar. Any security updates or verified performance improvements from coolstar's branch will be merged with Electrified. 
 
 ## Roadmap
 See the [open issues](https://github.com/colord3v/electra/issues) for areas to be improved on.
