@@ -1,4 +1,4 @@
-# Electra Jailbreak Tookit 
+# Electra Jailbreak Toolkit 
 for iOS 11.0-11.1.2.
 https://coolstar.org/electra/
 
