@@ -57,3 +57,15 @@ Electrified was forked at b11-3.
 Note: the async_awake exploit by Ian Beer is not licensed
 
 However, for the additions by Electra, see LICENSE.md
+
+## Installation to End-User Devices
+
+I've tried to make installation from GitHub as easy as possible.
+
+If you don't know how to compile an IPA from this repo, here's all you need to do.
+
+* Download a .zip of this repo from GitHub
+* Make sure Windows Explorer (or Nautilius, Finder, whatever your cup of tea) is showing file extensions so the file is called "electrified-master.zip" instead of just "electrified-master"
+* Rename the .zip to a .ipa
+* Your new file should be *electrified-master.ipa* 
+* Sideload to your iOS device running iOS 11.0-11.1.2 via Cydia Impactor or Xcode
