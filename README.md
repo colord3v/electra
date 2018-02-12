@@ -26,6 +26,9 @@ If you have a crash, PLEASE REPORT IT! otherwise I'll never know
 - Structure filesystem more like a traditional jailbreak (coolstar)
 - Fix user interface patterns (colordev)
 
+## I'm a developer, how do I update my tweaks for electra support?
+Refer to our [getting started](docs/getting-started.md) guide for developers.
+
 ## Contributing
 
 * Download the repo, and run the code on your device.
