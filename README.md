@@ -7,7 +7,7 @@ forked from coolstar's incredible basekit, Electra. you can find it at https://c
 This jailbreak is by the community, and was developed open source.
 
 ## Roadmap
-See the [open issues](https://github.com/coolstar/electra/issues) for areas to be improved on.
+See the [open issues](https://github.com/colord3v/electra/issues) for areas to be improved on.
 
 If you have a crash, PLEASE REPORT IT! otherwise I'll never know
 
@@ -35,11 +35,13 @@ If you have a crash, PLEASE REPORT IT! otherwise I'll never know
 * Profit :tada:
 
 ## I found a bug, how do I report it
-[Open a new issue](https://github.com/coolstar/electra/issues/new), **after looking for similar issues already created.**
+[Open a new issue](https://github.com/colord3v/electra/issues/new), **after looking for similar issues already created.**
 
 ## Credits
 
-This jailbreak was written by open source contributors. See [the contributors list](https://github.com/coolstar/electra/graphs/contributors) to find out who they are!
+This jailbreak is based off of the developer only jailbreak toolkit [Electra](https://github.com/coolstar/electra) by coolstar and [async_wake](https://github.com/benjibobs/async_wake) by Ian Beer. 
+
+Electrified was forked at b11-3.
 
 * jailbreakd and electra by ninjaprawn and coolstar
 * cosmetic and futureproofing by colord3v
