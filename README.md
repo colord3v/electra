@@ -44,8 +44,6 @@ Refer to our [getting started](docs/getting-started.md) guide for developers.
 
 This jailbreak is based off of the developer only jailbreak toolkit [Electra](https://github.com/coolstar/electra) by coolstar and [async_wake](https://github.com/benjibobs/async_wake) by Ian Beer. 
 
-Electrified was forked at b11-3.
-
 * jailbreakd and electra by ninjaprawn and coolstar
 * cosmetic and futureproofing by colord3v
 * kernel hang fixes by colord3v
