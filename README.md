@@ -1,13 +1,15 @@
-# Electra Jailbreak Toolkit 
+# Electrified Jailbreak Toolkit 
 for iOS 11.0-11.1.2.
-https://coolstar.org/electra/
+forked from coolstar's incredible basekit, Electra. you can find it at https://coolstar.org/electra/
 
 ---
 
 This jailbreak is by the community, and was developed open source.
 
 ## Roadmap
-See the [open issues](https://github.com/coolstar/electra/issues) for smaller things to work on.
+See the [open issues](https://github.com/coolstar/electra/issues) for areas to be improved on.
+
+If you have a crash, PLEASE REPORT IT! otherwise I'll never know
 
 ### Currently implemented:
 - setuid(0) - no panic
@@ -20,8 +22,9 @@ See the [open issues](https://github.com/coolstar/electra/issues) for smaller th
 - Working setuid (after calling jailbreakd to fix it up)
 
 ### Planned:
-- Dpkg/APT port (and maybe Cydia?)
-- Structure filesystem more like a traditional jailbreak
+- Dpkg/APT port (and maybe Cydia?) (coolstar)
+- Structure filesystem more like a traditional jailbreak (coolstar)
+- Fix user interface patterns (colordev)
 
 ## Contributing
 
