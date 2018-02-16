@@ -25,6 +25,7 @@ If you have a crash, PLEASE REPORT IT! otherwise I'll never know
 - Dpkg/APT port (and maybe Cydia?) (coolstar)
 - Structure filesystem more like a traditional jailbreak (coolstar)
 - Fix user interface patterns (colordev)
+- Run coolstar's Cydia patch and fix device specific crashes
 
 ## I'm a developer, how do I update my tweaks and apps to support Electrified and MobileSubstitute?
 Refer to our [getting started](docs/getting-started.md) guide for developers.
