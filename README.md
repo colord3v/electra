@@ -1,10 +1,10 @@
 # Electrified Jailbreak Toolkit 
 for iOS 11.0-11.1.2.
-forked from coolstar's incredible basekit, Electra. you can find it at https://coolstar.org/electra/
+(yes it was originally Electra)
 
 ---
 
-This jailbreak is fueled by the community and maintained by colord3v and coolstar. Any security updates or verified performance improvements from coolstar's branch will be merged with Electrified. 
+This jailbreak is fueled by the community and maintained by colord3v.
 
 ## Roadmap
 See the [open issues](https://github.com/colord3v/electra/issues) for areas to be improved on.
@@ -20,12 +20,15 @@ If you have a crash, PLEASE REPORT IT! otherwise I'll never know
 - jailbreakd that keeps tfp0 task port open and runs a local server listening for commands
 - Basic dylib injection into running process
 - Working setuid (after calling jailbreakd to fix it up)
+- Dpkg/APT/GPG port to iOS 11
+- Cydia port (for now)
+- Filesystem restructured temporarily, can be reverted with unjailbreak.sh
+- MobileTerminal access
+- Dropbear removed, OpenSSH added
 
 ### Planned:
-- Dpkg/APT port (and maybe Cydia?) (coolstar)
-- Structure filesystem more like a traditional jailbreak (coolstar)
-- Fix user interface patterns (colordev)
-- Run coolstar's Cydia patch and fix device specific crashes
+- ????
+- User interface tweaks
 
 ## I'm a developer, how do I update my tweaks and apps to support Electrified and MobileSubstitute?
 Refer to our [getting started](docs/getting-started.md) guide for developers.
