@@ -1,41 +1,41 @@
-# Getting started with electra (for developers)
+# Getting started with electrified (for developers)
 
-Electra is an iOS 11 jailbreak for versions up to, and including, iOS 11.1.2.
+Electrified is a fully working iOS 11 jailbreak for versions up to, and including, iOS 11.1.2.
 
 ---
 
 # Table of Contents
 1. [Introduction](#introduction)
-2. [Major changes in electra](#major-changes-in-electra)
+2. [Major changes in electrified](#major-changes-in-electrified)
     * [Using substitute](#using-substitute)
     * [jailbreakd](#jailbreakd)
 3. [Getting development support](#getting-development-support)
 
 # Introduction
 
-Electra does things differently to most traditional jailbreaks, and the core of the jailbreak is based around a daemon called **jailbreakd**.
+Electrified does things differently to most traditional jailbreaks, and the core of the jailbreak is based around a daemon called **jailbreakd**.
 
-# Major changes in electra
+# Major changes in electrified
 
 * Substitute is used as the hooking framework instead of substrate
-    * Please report issues at [the electra issues page](https://github.com/coolstar/electra/issues) and we'll look into them
+    * Please report issues at [the electra issues page](https://github.com/colord3v/electrified/issues) and we'll look into them
 * `setuid(0);` does not work out of the box (see below for how to use jailbreakd to patch setuid)
 * `platform-application` **WILL NOT** platformize your binary out of the box on electra
 
 ## Using substitute
 
-We provide a substrate-shim compatability layer, that works for *most* tweaks. Please report issues you have at [the electra issues page](https://github.com/coolstar/electra/issues) and we'll look into them.
+We provide a substrate-shim compatability layer, that works for *most* tweaks. Please report issues you have at [the electrified issues page](https://github.com/colord3v/electrified/issues) and we'll look into them.
 
 ## jailbreakd
 
-Electra is a KPPLess jailbreak; this means that by nature, electra is not able to patch the kernel, therefore a jailbreak daemon is used in places where kernel patches would be. jailbreakd is a daemon that handles patching setuid for processes, platformising them, and handing certain entiltements out. 
+Electrified is a KPPLess jailbreak; this means that by nature, electrified is not able to patch the kernel, therefore a jailbreak daemon is used in places where kernel patches would be. jailbreakd is a daemon that handles patching setuid for processes, platformising them, and handing certain entiltements out. 
 
 We provide a libjailbreak.dylib for interfacing with jailbreakd, and this is in `/usr/lib/libjailbreak.dylib`.
 All patches here will require `dlopen()`-ing the dylib, finding the appropiate symbol, and calling the respective function.
 
 ### Setting uid 0
 
-Here is sample code to patch setuid() with electra.
+Here is sample code to patch setuid() with electrified.
 
 ```c
 void patch_setuid() {
@@ -86,4 +86,4 @@ void platformize_me() {
 
 * Join the /r/jailbreak [discord](https://discord.gg/jb), and ask for help in #development
 * Create a post on /r/jailbreakdevelopers
-* If neither of these solve your issues, open an issue on the [the electra issues page](https://github.com/coolstar/electra/issues)
+* If neither of these solve your issues, open an issue on the [the electrified issues page](https://github.com/colord3v/electrified/issues)
