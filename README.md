@@ -1,6 +1,5 @@
 # Electrified Jailbreak Toolkit 
 for iOS 11.0-11.1.2.
-(yes it was originally Electra)
 
 ---
 
@@ -46,7 +45,7 @@ Refer to our [getting started](docs/getting-started.md) guide for developers.
 
 ## Credits
 
-This jailbreak is based off of the developer only jailbreak toolkit [Electra](https://github.com/coolstar/electra) by coolstar and [async_wake](https://github.com/benjibobs/async_wake) by Ian Beer. 
+This jailbreak is based off [async_wake](https://github.com/benjibobs/async_wake) by Ian Beer. 
 
 * jailbreakd and electra by ninjaprawn and coolstar
 * cosmetic and futureproofing by colord3v
